@@ -17,7 +17,7 @@ FedRP introduces a secure dimension-reduction step (via random projection) on th
   * Clients use a **shared random projection matrix** to project model parameters.
   * Optimization is performed using **Consensus ADMM** in the projected space.
   * FedRP avoids the need to reverse the projections, unlike FedSketch and similar methods.
- 
+ ![FedRP](fedrp.png)
 -----
 
 ## ✨ Key Features
