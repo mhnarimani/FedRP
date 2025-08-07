@@ -1,4 +1,3 @@
-با توجه به فایل‌های ارائه شده، در اینجا یک نسخه اصلاح شده از فایل README.md برای پروژه شما به زبان انگلیسی آمده است:
 
 # FedRP: A Communication-Efficient Approach for Differentially Private Federated Learning Using Random Projection
 
@@ -9,9 +8,6 @@ This repository contains the implementation of **FedRP**, a novel federated lear
 ## 📌 Paper
 
 > **FedRP: A Communication-Efficient Approach for Differentially Private Federated Learning Using Random Projection**
->
-> Preprint submitted to *Expert Systems With Applications*, July 30, 2025.
-
 -----
 
 ## 🧠 Method Overview
@@ -21,7 +17,7 @@ FedRP introduces a secure dimension-reduction step (via random projection) on th
   * Clients use a **shared random projection matrix** to project model parameters.
   * Optimization is performed using **Consensus ADMM** in the projected space.
   * FedRP avoids the need to reverse the projections, unlike FedSketch and similar methods.
-
+ 
 -----
 
 ## ✨ Key Features
@@ -30,18 +26,6 @@ FedRP introduces a secure dimension-reduction step (via random projection) on th
   * **Differential Privacy**: Provides formal privacy guarantees through the combination of random projections and ADMM.
   * **Implemented Algorithms**: Includes implementations of FedAvg, FedAvgDP, FedADMM, and FedRP for comparison.
   * **Model and Dataset**: Uses a ResNet-18 model on the CIFAR-100 dataset.
-
------
-
-## 📂 Directory Structure
-
-```
-├── resnet18.py         # Main script with algorithm implementations
-├── README.md           # This file
-├── LICENSE             # Project license
-├── .gitignore          # Git ignore file
-└── resnet18_cifar100_main.log # Log file for experiment results
-```
 
 -----
 
